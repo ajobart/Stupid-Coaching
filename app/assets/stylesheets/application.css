@@ -13,3 +13,119 @@
  *= require_tree .
  *= require_self
  */
+
+ body {
+   font-family: 'Roboto';
+   margin: 0;
+ }
+
+ .test {
+   text-align: center;
+   background-color: rgb(238, 237, 237);
+ }
+
+ .test h1 {
+  margin: 0;
+ }
+
+ .title {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   background-color: #1E73FA;
+   height: 80px;
+ }
+
+ .time {
+   color: black;
+   display: flex;
+   margin-left: 20px;
+   justify-content: flex-start;
+ }
+
+ .test a {
+  display: inline-block;
+  border-radius: 25px;
+  padding: 20px;
+  text-decoration: none;
+  background-color: #1E73FA;
+  color: white;
+  box-shadow: 0px 8px 10px -6px rgba(30, 120, 255, 0.747)
+ }
+
+ .ask-body {
+  background: white;
+ }
+
+ .ask-container {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: #F4F7FB;
+  margin: 20px;
+  padding-left: 20px;
+  font-size: larger;
+  font-weight: 400;
+  border-radius: 20px;
+  box-shadow: 0px 8px 10px -6px rgb(32 32 32 / 25%)
+ }
+
+ .answer-container {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: #1E73FA;
+  color: white;
+  margin: 20px;
+  padding-left: 20px;
+  font-size: larger;
+  font-weight: 400;
+  border-radius: 20px;
+  box-shadow: 0px 8px 10px -6px rgb(32 32 32 / 25%)
+ }
+
+ form {
+   display: flex;
+   align-items: center;
+  justify-content: center;
+ }
+
+ input {
+   flex-grow: 1;
+ }
+
+ input[type=text] {
+   width: 100%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   box-sizing: border-box;
+ }
+
+ input[type=submit] {
+   background-color: #1E73FA;
+   border: none;
+   color: white;
+   padding: 0 20px;
+   height: 43px;
+   text-decoration: none;
+   cursor: pointer;
+ }
+
+ .container {
+   height: 100vh;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   background-color: rgb(241, 241, 241);
+  }
+
+  .container h1 {
+    color: #1E73FA;
+  }
