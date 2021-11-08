@@ -1,6 +1,6 @@
 # Stupid-Coaching
 
-A simple tchat with your the coach with a (bad) logic, here it is:
+A simple tchat with your coach with a (bad) logic, here it is:
 
 -If the message is I am going to work, the coach will answer Great!
 
